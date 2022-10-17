@@ -1,0 +1,472 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+@font-face {
+  font-family: comfortaa;
+  font-display: swap;
+  src: url("../fonts/comfortaa.woff2") format("woff2"), url("../fonts/comfortaa.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: evgenia;
+  font-display: swap;
+  src: url("../fonts/evgenia-deco.woff2") format("woff2"), url("../fonts/evgenia-deco.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: gogoia;
+  font-display: swap;
+  src: url("../fonts/gogoia-deco.woff2") format("woff2"), url("../fonts/gogoia-deco.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgb(100, 70, 15);
+  background: linear-gradient(0deg, rgba(100, 70, 15, 0.9) 20%, rgba(119, 88, 35, 0.961) 50%, rgba(100, 70, 15, 0.9) 80%);
+  box-shadow: -3px 8px 16px 11px rgba(0, 0, 0, 0.33);
+}
+.header .header__telephone {
+  padding-left: 10px;
+  color: burlywood;
+  font-size: 32px;
+}
+.header__links {
+  padding-right: 10px;
+}
+.header__container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.header__contacts-bar {
+  font-size: 14px;
+  color: bisque;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  height: 40px;
+  margin: 0px auto;
+}
+.header__menu {
+  flex: 1 1 auto;
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: evgenia;
+  text-shadow: -2px -3px 1px rgba(0, 0, 0, 0.45);
+  font-size: 40px;
+  color: aqua;
+  padding-left: 15px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu__item {
+  text-transform: uppercase;
+}
+.menu__item:last-child {
+  margin: 0 0 0 0;
+}
+.menu__link {
+  font-size: 14px;
+  color: rgb(252, 215, 201);
+  transition-duration: 2s;
+}
+.menu__link:hover {
+  text-shadow: 2px 2px 16px rgb(253, 253, 102), -2px 2px 16px rgb(253, 253, 102), 2px -2px 16px rgb(253, 253, 102), -2px -2px 16px rgb(253, 253, 102);
+}
+
+.actions-header__button {
+  margin: 0 5px 0 0;
+}
+.actions-header__button:last-child {
+  margin-right: 12px;
+}
+
+.sociaLink {
+  padding-right: 5px;
+  display: inline-flex;
+  height: 22px;
+}
+
+.footer {
+  margin-top: -76px;
+  background: linear-gradient(0deg, rgba(100, 70, 15, 0.9) 20%, rgba(119, 88, 35, 0.961) 50%, rgba(100, 70, 15, 0.9) 80%);
+}
+.footer__container {
+  justify-content: space-evenly;
+  display: flex;
+  height: 54px;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.footer__container_copyright {
+  height: 22px;
+}
+
+.logo1 {
+  font-family: evgenia;
+  text-shadow: -2px -3px 1px rgba(0, 0, 0, 0.45);
+  font-size: 40px;
+  color: rgb(0, 255, 30);
+  padding-left: 15px;
+}
+
+.logo2 {
+  font-family: evgenia;
+  text-shadow: -2px -3px 1px rgba(255, 255, 255, 0.45);
+  font-size: 40px;
+  color: rgb(120, 4, 4);
+  padding-left: 15px;
+}
+
+.logo3 {
+  font-family: evgenia;
+  text-shadow: -2px -3px 1px rgba(255, 147, 147, 0.45);
+  font-size: 40px;
+  color: rgb(4, 0, 106);
+  padding-left: 15px;
+}
+
+a {
+  transition: 2s ease;
+}
+
+a:hover {
+  text-shadow: 8px 8px 50px yellow, -8px -8px 50px yellow, -8px 8px 50px yellow, 8px -8px 50px yellow;
+  color: aqua;
+}
+
+.footer__container_copyright {
+  color: bisque;
+  font-size: 10px;
+}
+
+.title {
+  font-family: gogoia;
+  font-size: 40px;
+  line-height: 125%;
+}
+
+.btn {
+  box-shadow: 0 1px 25px rgb(60, 47, 1);
+  border: 1px solid rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  height: 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  color: rgb(252, 215, 201);
+  transition: cubic-bezier(0.73, 0.85, 0, 1.65) 0.5s;
+}
+.btn:hover {
+  box-shadow: 2px 2px 20px 0px rgba(255, 0, 0, 0.5), -2px -2px 20px 0px rgba(255, 255, 0, 0.5);
+  color: rgb(255, 239, 158);
+  border: 1px outset rgba(255, 170, 0, 0.646);
+}
+.btn:active {
+  border: 1px inset rgb(255, 170, 0);
+}
+
+body {
+  font-family: arial;
+  font-size: 12px;
+}
+
+.wrapper {
+  background: url(../img/background_workbench.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper_contacts {
+  background: url(../img/background_street.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.wrapper_golova {
+  background: url(../img/deco_scissors.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.wrapper_boroda {
+  background: url(../img/deco_razor_workbench.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.wrapper_piercing {
+  background: url(../img/background_piercing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.wrapper_tatoo {
+  background: url(../img/background_tatoo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.wrapper_kids {
+  background: url(../img/background_kids.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+  background: linear-gradient(115deg, rgba(9, 53, 104, 0.772) 0%, rgba(23, 68, 49, 0.936) 45%, rgba(20, 78, 84, 0.74) 100%);
+}
+
+.text {
+  color: antiquewhite;
+  font-size: 16px;
+  line-height: 1.7em;
+  text-align: justify;
+  padding: 7px;
+}
+
+p {
+  text-indent: 22px;
+  padding-bottom: 12px;
+}
+
+p:first-child {
+  padding-top: 12px;
+}
+
+.block {
+  padding: 130px 20px 76px 20px;
+}
+.block__container {
+  display: flex;
+  padding-bottom: 30px;
+}
+.block__containerReversed {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px 0 30px 0;
+}
+.block__img {
+  flex: 0 0 40%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin: 7px;
+}
+.block__text {
+  flex: 0 0 60%;
+  align-self: center;
+}
+.block__imgBio {
+  flex: 0 0 16%;
+  border-radius: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.block__textBio {
+  flex: 0 0 84%;
+  align-self: flex-start;
+}
+.block__imgBio__a {
+  flex: 0 0 30%;
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.block__textBio__a {
+  flex: 0 0 70%;
+  align-self: flex-start;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.block__textPromo {
+  align-self: center;
+  color: antiquewhite;
+  font-size: 18px;
+}
+
+.text__title {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  line-height: 2em;
+  color: rgb(255, 187, 99);
+  padding-bottom: 15px;
+}
+.text__body {
+  font-size: 14px;
+}
+.text__motto {
+  padding-top: 50px;
+  font-size: 1.1em;
+  color: aliceblue;
+  letter-spacing: 0.21em;
+  font-style: italic;
+}
+
+.imgBio {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text__contactsBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+  flex: 1 1 auto;
+}
+
+.text__item a {
+  font-size: 20px;
+  transition: 2s ease;
+}
+.text__item a:hover {
+  text-shadow: 8px 8px 50px yellow, -8px -8px 50px yellow, -8px 8px 50px yellow, 8px -8px 50px yellow;
+  color: aqua;
+}
+
+.text__item__telephone {
+  font-size: 20px;
+  letter-spacing: 0.08em;
+}
+
+.logo {
+  font-family: evgenia;
+  text-shadow: -2px -3px 1px rgba(0, 0, 0, 0.45);
+  font-size: 40px;
+  color: aqua;
+  padding-left: 15px;
+  font-style: normal;
+}

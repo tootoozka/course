@@ -129,13 +129,13 @@ h6 {
 }
 @media (max-width: 768px) {
   .header .header__email {
-    font-size: 10px;
+    font-size: 0px;
     padding: 0 3px 0 3px;
   }
 }
 @media (max-width: 768px) {
   .header .header__address {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 3px 0 3px;
   }
 }
@@ -151,7 +151,7 @@ h6 {
 }
 @media (max-width: 768px) {
   .header__container {
-    height: 20px;
+    height: 25px;
     padding-right: 20px;
     padding-top: 5px;
   }
@@ -169,7 +169,7 @@ h6 {
 }
 @media (max-width: 768px) {
   .header__contacts-bar {
-    font-size: 10px;
+    font-size: 12px;
     height: 23px;
   }
 }
@@ -215,7 +215,7 @@ h6 {
 }
 @media (max-width: 768px) {
   .logom {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -497,7 +497,7 @@ body {
 }
 @media (max-width: 768px) {
   .text {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -617,7 +617,7 @@ p:first-child {
 }
 @media (max-width: 768px) {
   .block__textPromo {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -639,7 +639,7 @@ p:first-child {
 }
 @media (max-width: 768px) {
   .text__body {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .text__motto {
